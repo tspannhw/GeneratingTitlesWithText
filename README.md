@@ -1,6 +1,9 @@
 ## GeneratingTitlesWithText
 
-Python3 textgenrnn
+* Python3 textgenrnn
+* https://www.datainmotion.dev/2021/08/building-bad-titles-for-talks.html
+* https://github.com/minimaxir/textgenrnn
+
 
 ````
 
@@ -24,4 +27,27 @@ Using Apache MXNet anything
 
 Pulsar Streaming in Pulsar
 
+FLiP Stack for Cloud Data DevOps
+
+FLiP Into ScyllaDB Pipelines
+
+Processing a Stream into AI as Apache  Pulsar
+
+Real-Time Streaming Pipelines with Apache NiFi
+
+FLINK Everywhere
+
+BUILDING EVENT STREAMING WITH WEBSOCKETS AND PULSAR
+
+````
+
+### Ran 12 Epochs
+
+````
+from textgenrnn import textgenrnn
+
+textgen = textgenrnn()
+
+textgen.train_from_file('tim.txt', num_epochs=12)
+textgen.generate()
 ````
