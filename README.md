@@ -50,3 +50,13 @@ textgen = textgenrnn()
 textgen.train_from_file('tim.txt', num_epochs=12)
 textgen.generate()
 ````
+#### Some real winners
+
+````
+Cracking the NiFi Data Lakes
+
+Let's Stop Social Microservices and FLiP
+
+Codeless Streaming with Apache Pulsar for Cloud Data Lake
+
+````
