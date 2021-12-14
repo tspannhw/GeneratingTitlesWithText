@@ -4,7 +4,6 @@
 * https://www.datainmotion.dev/2021/08/building-bad-titles-for-talks.html
 * https://github.com/minimaxir/textgenrnn
 
-
 ````
 
 ####################
